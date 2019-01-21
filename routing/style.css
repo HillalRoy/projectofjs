@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#canvas{
+    top:0;
+    left:0;
+    position: absolute;
+    background: #333;
+    z-index: -11111;
+}

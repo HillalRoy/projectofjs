@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #333;
+}
+#inputs{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    
+    height: min-content;
+    width: fit-content;
+    display: inline-block;
+    transform: translate(-50%, -50%);
+}
+
+input{
+
+    height: 2rem;
+    padding: 0 3rem;
+    margin: 1rem;
+    background: #009966;
+    border: 3px solid #000;
+}

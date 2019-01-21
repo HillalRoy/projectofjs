@@ -1,0 +1,138 @@
+/*****nav.css********/
+#nav{
+    position: fixed;
+    top:0;
+    left:0;
+
+}
+#navm{
+
+    display: none;
+}
+#nav nav{
+    z-index: 999 !important;
+    top: 0;
+    left: 0;
+    float: left;
+    background: rgba(0,0,0,0.4);
+    width: 100vw;
+    height: 3rem;
+    display: flex;
+}
+nav ul{
+
+    /* z-index: 999; */
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    margin: 0;
+
+}
+nav ul li{
+    display: inline-block;
+    /* background: #333; */
+    height: 2rem;
+    padding: 1rem 0;
+}
+nav ul li a{
+    padding: 0.3rem  1rem;
+    margin: 0 1rem;
+    text-transform: uppercase;
+    color: #00ff9f;
+    text-decoration: none;
+    border: 1px solid black;
+    transition: 0.3s; 
+}
+nav ul li a:hover{
+    background: #FFF38B;
+    color: #0B4958;
+
+}
+nav ul #moreli{
+    padding: 1rem  1rem;
+    margin: 0 1rem 0.5rem 0;
+    text-transform: uppercase;
+    color: #00ff9f;
+    text-decoration: none;
+    cursor: pointer;
+}
+#moreli ul li{
+    display: block;
+}
+#moreli ul{
+    margin-top: 0.1rem;
+    background: rgba(0,0,0,0.4);
+    display: none;
+}
+#moreli:hover ul{
+    display: block;
+}
+#canvas{
+    z-index: -1111;
+}
+#addp{
+    right: 2rem;
+    box-sizing: border-box;
+    float: right;
+    position: absolute;
+}
+#addp a{
+    background: #aaa;
+}
+
+
+
+
+/***** for mobail ********/
+/* @media only screen and (max-width: 1200px) {
+    #nav ul{
+        display: none;
+    }
+    #nav nav{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        background: #222;
+
+    }
+    #nav nav ul li {
+        display: block;
+        margin-top: 1rem; 
+    }
+    nav ul #moreli{
+        padding: 1rem  1rem;
+        margin: 0 1rem 0.5rem 0;
+        text-transform: uppercase;
+        color: #00ff9f;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    #moreli ul li{
+        display: block;
+    }
+    #moreli ul{
+        margin-top: 0.1rem;
+        background: transparent;
+        display: none;
+        transition: 2s;
+    }
+    #moreli:hover ul{
+        display: block;
+    }
+    #addp{
+        margin: 0;
+        box-sizing: border-box;
+        margin-top: 2rem;
+        position: relative;
+    }
+
+    #navm{
+        display:block;
+
+    }
+    #navm div{
+        height: 0.2rem;
+        width: 2rem;
+        background: #fff;
+    }
+} */
